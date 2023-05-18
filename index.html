@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Marvel Characters</title>
+    <link rel="shortcut icon" href="marvelImg\mstile-150x150.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            
+                <!-- BOTON HAMBURGESA -->
+                <div class ="btn_hamburgesa">
+                    <span class="material-symbols-outlined" onclick="openNav()" > menu </span> 
+                </div> 
+                <div class="uper_header">
+                    <img src="marvelImg/Marvel_Logo.svg.png" alt="">
+                </div>
+                <!-- Campo Busqueda -->
+                <div class="campoBusqueda">
+                    <input type="search" id="search-input" placeholder="Buscar..." onkeyup="search()">
+                    <a><span class="material-symbols-outlined" id="search"> search </span></a>
+                </div>
+
+        </header>
+        <div class="baner">
+            <span>MARVEL CHARACTERS</span>
+        </div>
+        <section class="card_container">
+            <!-- <div class="paginat">
+                <button onclick="prev()">Previous</button>
+                <button onclick="next()">Next</button>
+            </div> -->
+        </section>
+        <footer class="footer">
+            <img src="marvelImg/mstile-150x150.png" alt="Marvel">
+            <span class="footerLegal">©2023 MARVEL</span>
+            <div class="rrss">
+                <a href="http://"><img alt="Facebook" class="scnw" src="marvelImg/facebook_fill.png"/></a>
+                <a href="http://"><img src="marvelImg/twitter_fill.svg" alt="Twitter" class="scnw"></a>
+                <a href="http://"><img src="marvelImg/ins_fill.svg" alt="Instagram" class="scnw"/></a>
+                <a href="http://"><img src="marvelImg/youtube_fill.svg" alt="Youtube" class="scnw"/></a>
+                <a href="http://"><img src="marvelImg\pinterest_fill.svg" alt="Pinterest" class="scnw"/></a>
+            </div>
+        </footer>
+    </main>
+    <script src='prueba.js'></script>
+    <script src="busqueda.js"></script>
+</body>
+</html>
